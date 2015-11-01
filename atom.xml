@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Android Devloper]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-11-01T03:49:26.754Z</updated>
+  <updated>2015-11-01T07:03:18.046Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,23 +15,97 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://yoursite.com/2015/11/01/hello-world/"/>
-    <id>http://yoursite.com/2015/11/01/hello-world/</id>
-    <published>2015-11-01T03:49:26.754Z</published>
-    <updated>2015-11-01T03:49:26.754Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+    <title></title>
+    <link href="http://yoursite.com/2015/11/01/test/"/>
+    <id>http://yoursite.com/2015/11/01/test/</id>
+    <published>2015-11-01T07:03:35.634Z</published>
+    <updated>2015-11-01T07:03:18.046Z</updated>
+    <content type="html"><![CDATA[<h1 id="环境准备">环境准备</h1><h2 id="Python">Python</h2><p>我们使用Python2.7进行开发，注意配置好环境变量。</p>
+<h2 id="IDE">IDE</h2><p>我们使用Pycharm进行开发，它和大名鼎鼎的Android Studio、IDEA同出一门——Jet Brains。</p>
+<p>关于破解，很无耻的贴两个：</p>
+<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">用户名：yueting3527</span><br><span class="line">注册码：</span><br><span class="line"><span class="header">===== LICENSE BEGIN =====</span></span><br><span class="line">93347-12042010</span><br><span class="line">00001FMHemWIs"6wozMZnat3IgXKXJ</span><br><span class="line">2!nV2I6kSO48hgGLa9JNgjQ5oKz1Us</span><br><span class="line">FFR8k"nGzJHzjQT6IBG!1fbQZn9!Vi</span><br><span class="line"><span class="header">===== LICENSE END =====</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight asciidoc"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">用户名：yueting3527</span><br><span class="line"></span><br><span class="line">注册码：</span><br><span class="line"><span class="header">===== LICENSE BEGIN =====</span></span><br><span class="line">93347-12042010</span><br><span class="line">00001FMHemWIs"6wozMZnat3IgXKXJ</span><br><span class="line">2!nV2I6kSO48hgGLa9JNgjQ5oKz1Us</span><br><span class="line">FFR8k"nGzJHzjQT6IBG!1fbQZn9!Vi</span><br><span class="line"><span class="header">===== LICENSE END =====</span></span><br></pre></td></tr></table></figure>
+<h1 id="Requests模块">Requests模块</h1><p>Requests模块是一个用于替代Python URLLib2的一个第三方网络请求库。</p>
+<h2 id="安装">安装</h2><ul>
+<li>Windows：pip install requests </li>
+<li>Linux &amp; Mac：sudo pip install requests</li>
+</ul>
+<p>但由于有些比较奇怪的原因，导致这个下载过程异常艰辛，所以我们经常需要使用这样一个网站来帮助我们下载：</p>
+<p><a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/" target="_blank" rel="external">http://www.lfd.uci.edu/~gohlke/pythonlibs/</a></p>
+<p>这里面镜像收集了几乎所有的Python第三方库，我们搜索Requests，点击下载。</p>
+<p>下载完毕后，更改后缀名为zip。并将解压出的Requests文件夹放到Python的Lib文件夹下。</p>
+<h2 id="通过Requests获取网页源代码">通过Requests获取网页源代码</h2><h3 id="无反爬虫机制">无反爬虫机制</h3><p>直接使用Requests库的get方法获取网页源代码：</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">import requests</span><br><span class="line"></span><br><span class="line"><span class="tag">html</span> = requests.<span class="function"><span class="title">get</span><span class="params">(<span class="string">'http://www.hujiang.com/'</span>)</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="title">print</span><span class="params">(html.text)</span></span></span><br></pre></td></tr></table></figure>
+<p>在终端中，我们就可以看见生成的网页源代码了。</p>
+<h3 id="有反爬虫机制">有反爬虫机制</h3><p>但是，很多网站并不会轻松的让爬虫获取到网页信息，这时候，我们就需要通过修改Http头信息的方式来获取。</p>
+<p>例如我们使用同样的代码去爬我的博客 <a href="http://blog.csdn.net/eclipsexys" target="_blank" rel="external">http://blog.csdn.net/eclipsexys</a> 在终端中，我们可以看见这样一段话：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">head</span>&gt;</span><span class="tag">&lt;<span class="title">title</span>&gt;</span>403 Forbidden<span class="tag">&lt;/<span class="title">title</span>&gt;</span><span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">body</span> <span class="attribute">bgcolor</span>=<span class="value">"white"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">center</span>&gt;</span><span class="tag">&lt;<span class="title">h1</span>&gt;</span>403 Forbidden<span class="tag">&lt;/<span class="title">h1</span>&gt;</span><span class="tag">&lt;/<span class="title">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">hr</span>&gt;</span><span class="tag">&lt;<span class="title">center</span>&gt;</span>nginx<span class="tag">&lt;/<span class="title">center</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>403，这时候，我们就需要修改下爬虫代码。</p>
+<p>首先，我们在页面上点击右键选择审查元素，找到Network，刷新下， 选择任意一个元素，找到最后的User—Agent：</p>
+<p><img src="http://img.blog.csdn.net/20150903104155111" alt="这里写图片描述"></p>
+<p>User-Agent:Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36</p>
+<p>这就是我们的Http请求头。现在我们修改代码：</p>
+<figure class="highlight processing"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line">head = &#123;</span><br><span class="line">    <span class="string">'User-Agent'</span>: <span class="string">'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'</span>&#125;</span><br><span class="line"></span><br><span class="line">html = requests.<span class="built_in">get</span>(<span class="string">'http://blog.csdn.net/eclipsexys'</span>, headers = head)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(html.<span class="built_in">text</span>.encode(<span class="string">'utf-8'</span>))</span><br></pre></td></tr></table></figure>
+<p>添加请求头，并设置下编码格式为UTF-8。（Windows下默认为GBK，请先修改coding为UTF-8）</p>
+<blockquote>
+<p>ps: 在Python文件中，如果我们要输入中文，需要指定下文件的字符集：</p>
+<h1 id="coding=utf-8">coding=utf-8</h1><p> 具体见 <a href="https://www.python.org/dev/peps/pep-0263/" target="_blank" rel="external">https://www.python.org/dev/peps/pep-0263/</a></p>
+</blockquote>
+<p>我们再运行，现在就可以正常获取源代码了。</p>
+<h2 id="Requests正则搜索">Requests正则搜索</h2><p>直接get出来的内容，都是网页的所有源代码，这肯定不是我们需要的，所以，我们可以通过正则表达式来提取我们所需要的内容。<br>例如，我们想提取网页中的所有超链接，OK，我们来看如何实现：</p>
+<h3 id="re模块">re模块</h3><p>首先我们需要引入re模块，re模块是正则表达式的模块，使用与web端的正则一样：</p>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line">head = &#123;</span><br><span class="line">    <span class="string">'User-Agent'</span>: <span class="string">'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36'</span>&#125;</span><br><span class="line"></span><br><span class="line">html = requests.get(<span class="string">'http://www.hujiang.com/'</span>, headers=head)</span><br><span class="line">html.encoding = <span class="string">"utf-8"</span></span><br><span class="line"></span><br><span class="line">href = re.<span class="keyword">findall</span>(<span class="string">'&lt;a target="_blank" href="(.*?)"'</span>, html.text, re.S)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> <span class="keyword">each</span> in href:</span><br><span class="line">    <span class="keyword">print</span> <span class="keyword">each</span></span><br></pre></td></tr></table></figure>
+<h2 id="向网页提交数据">向网页提交数据</h2><h3 id="Get与Post">Get与Post</h3><p>他们的区别如下所示：</p>
+<ul>
+<li>Get是从服务器上获取数据 </li>
+<li>Post是向服务器传送数据  </li>
+<li>Get通过构造url中的参数来实现功能  </li>
+<li>Post将数据放在header提交数据</li>
+</ul>
+<h3 id="网页分析工具">网页分析工具</h3><p>Chrome调试功能——Network调试</p>
+<p>在Network中找到Post提交的地方，找到Form Data，这就是表单数据。</p>
+<h3 id="构造表单">构造表单</h3><p>Post方式提交表单。</p>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line">url = <span class="string">'https://www.crowdfunder.com/browse/deals&amp;template=false'</span></span><br><span class="line"></span><br><span class="line">data = &#123;</span><br><span class="line">    <span class="string">'entities_only'</span>:<span class="string">'true'</span>,</span><br><span class="line">    <span class="string">'page'</span>:<span class="string">'2'</span></span><br><span class="line">&#125;</span><br><span class="line">html_post = requests.post(url,data=data)</span><br><span class="line">title = re.<span class="keyword">findall</span>(<span class="string">'"card-title"&gt;(.*?)&lt;/div&gt;'</span>,html_post.text,re.S)</span><br><span class="line"><span class="keyword">for</span> <span class="keyword">each</span> in title:</span><br><span class="line">    <span class="keyword">print</span> <span class="keyword">each</span></span><br></pre></td></tr></table></figure>
+<h1 id="XPath">XPath</h1><p>XPath，就是XML路径语言，我们在寻找一个元素时，如果使用正则表达式，可以这么说，我要找一个长头发、180cm的女人。那么如果要用XPath来表达，就是XX公司XX部门的前台。</p>
+<h2 id="lxml">lxml</h2><p>在Python中使用XPath，我们需要使用第三方模块lxml，安装如同Requests。</p>
+<h3 id="获取HTML的XPath路径">获取HTML的XPath路径</h3><p>打开Chrome的审核元素，我们找到任何一个元素，点击右键，选择copy XPath即可。<br>当然，我们也可以手写，它的基本语法如下：</p>
+<ul>
+<li>//定位根节点  </li>
+<li>/往下层寻找  </li>
+<li>提取文本内容：/text()  </li>
+<li>提取属性内容: /@xxxx </li>
+</ul>
+<p>比如我们选择这个地址：<a href="http://www.imooc.com/course/list?c=android&amp;page=2" target="_blank" rel="external">http://www.imooc.com/course/list?c=android&amp;page=2</a></p>
+<p>打开审核元素：</p>
+<p><img src="http://img.blog.csdn.net/20150904103106294" alt="这里写图片描述"></p>
+<p>这样我们就非常方便的获得了元素的XPath，同时，我们也可以根据规则来手动修改。</p>
+<h3 id="爬取内容">爬取内容</h3><p>使用XPath基本是如下三个步骤：</p>
+<ul>
+<li>from lxml import etree  </li>
+<li>Selector = etree.HTML(HTML Source) </li>
+<li>Selector.xpath(XPath)</li>
+</ul>
+<p>我们同样以前面的网址为例，我们抓取所选的那门课程的标题：</p>
+<figure class="highlight vbnet"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># coding=utf-8</span></span><br><span class="line">import requests</span><br><span class="line"><span class="keyword">from</span> lxml import etree</span><br><span class="line"></span><br><span class="line">html = requests.<span class="keyword">get</span>(<span class="string">"http://www.imooc.com/course/list?c=android&amp;page=2"</span>)</span><br><span class="line">html.encoding = <span class="comment">'utf-8'</span></span><br><span class="line"></span><br><span class="line">selector = etree.HTML(html.<span class="keyword">text</span>)</span><br><span class="line"></span><br><span class="line">content = selector.xpath(<span class="comment">'//*[@id="main"]/div/div/div[3]/div[1]/ul/li[1]/a/h5/span/text()')</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> <span class="keyword">each</span> <span class="keyword">in</span> content:</span><br><span class="line">    print <span class="keyword">each</span></span><br></pre></td></tr></table></figure>
+<p>这样我们就获取了对应的内容， 搜索方法，其实跟我们通过地址来定位是一样的，中国-上海-浦东新区（内容唯一时，前面可跳过）-张江高科-沪江网-徐宜生</p>
+<p>那么如果我们需要爬取所有的课程信息要怎么办呢？我们可以看见生成的XPath中，有一个li[1]，它对应的是我们源代码中的那个列表，我们选择1是因为选择具体的一项，如果我们去掉这个1，返回的就是一个列表，就是我们要的所有元素，这里就不详细演示了。</p>
+<h2 id="XPath高级使用技巧">XPath高级使用技巧</h2><h3 id="相同字符串开头、但属性不同">相同字符串开头、但属性不同</h3><p>例如：</p>
+<figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="keyword">div</span> <span class="property">id</span>=<span class="string">"test-1"</span>&gt;需要的内容<span class="number">1</span>&lt;/<span class="keyword">div</span>&gt;</span><br><span class="line">&lt;<span class="keyword">div</span> <span class="property">id</span>=<span class="string">"test-2"</span>&gt;需要的内容<span class="number">2</span>&lt;/<span class="keyword">div</span>&gt;</span><br><span class="line">&lt;<span class="keyword">div</span> <span class="property">id</span>=<span class="string">"test-3"</span>&gt;需要的内容<span class="number">3</span>&lt;/<span class="keyword">div</span>&gt;</span><br></pre></td></tr></table></figure>
+<p>我们需要提前所有内容，但是他们的属性都不同，我们先看下一个元素的XPath：</p>
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="regexp">//</span>*[<span class="property">@id</span>=<span class="string">"test-1"</span>]/text()</span><br></pre></td></tr></table></figure>
+<p>可见，ID决定了元素，所以要取出这样的元素时，我们需要使用XPath的<strong>starts-with(@属性名称, 属性字符相同部分)</strong>方法：</p>
+<figure class="highlight golo"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">//*[starts-<span class="keyword">with</span>(<span class="annotation">@id</span>,<span class="string">"test"</span>)]/text()</span><br></pre></td></tr></table></figure>
+<p>只需要将[]中的内容使用starts-with方法进行匹配就OK了。</p>
+<h3 id="嵌套标签">嵌套标签</h3><p>例如：</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">div</span> <span class="attribute">id</span>=<span class="value">“class”</span>&gt;</span>text1</span><br><span class="line">	<span class="tag">&lt;<span class="title">font</span> <span class="attribute">color</span>=<span class="value">red</span>&gt;</span>text2<span class="tag">&lt;/<span class="title">font</span>&gt;</span></span><br><span class="line">	text3</span><br><span class="line"><span class="tag">&lt;/<span class="title">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>类似这种嵌套标签的，如果我们使用XPath获取第一级的text，那么只能获取text1和text3，如果要获取text2，我们就需要使用<strong>string(.)</strong>方法。</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">data = selector.<span class="function"><span class="title">xpath</span><span class="params">(<span class="string">'//div[@id="class"]'</span>)</span></span>[<span class="number">0</span>]</span><br><span class="line">info = data.<span class="function"><span class="title">xpath</span><span class="params">(<span class="string">'string(.)'</span>)</span></span></span><br><span class="line"><span class="attribute">content</span> = info.<span class="function"><span class="title">replace</span><span class="params">(<span class="string">'\n'</span>,<span class="string">''</span>)</span></span>.<span class="function"><span class="title">replace</span><span class="params">(<span class="string">' '</span>,<span class="string">''</span>)</span></span></span><br><span class="line">print <span class="attribute">content</span></span><br></pre></td></tr></table></figure>
+<p>通过string(.)，我们可以获取嵌套标签的text，相当于遍历子标签，获取text。</p>
+<h1 id="最后">最后</h1><p>写本篇博客的目的在于后面要进行的一次抽奖活动，大家都知道，我的新书《Android群英传》已经正式上市了，为了报答各位的大力推荐，我准备在CSDN博客准备一次抽奖，这篇博客所讲的，自然是抽奖所需要的预备知识，欢迎大家预热~~~</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
+    <![CDATA[<h1 id="环境准备">环境准备</h1><h2 id="Python">Python</h2><p>我们使用Python2.7进行开发，注意配置好环境变量。</p>
+<h2 id="IDE">IDE</h2><p>我们使用Pycharm进行开发，它和大名鼎鼎的Android]]>
     </summary>
     
   </entry>
