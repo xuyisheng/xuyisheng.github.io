@@ -1,6 +1,6 @@
 
  <!DOCTYPE HTML>
-<html lang="zh-Hans">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   
@@ -59,7 +59,7 @@ IDE我们使用Pycharm进行开发，它和大名鼎鼎的Android Studio、IDEA�
 				<h1 class="site-name"><a href="/" title="eclipse_xu">eclipse_xu</a></h1>
 				<h2 class="blog-motto">Android Devloper</h2>
 			</div>
-			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜單">
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
 			</a></div>
 			<nav class="animated">
 				<ul>
@@ -98,14 +98,14 @@ IDE我们使用Pycharm进行开发，它和大名鼎鼎的Android Studio、IDEA�
 		<a href="/about" title="徐宜生" target="_blank" itemprop="author">徐宜生</a>
 		
   <p class="article-time">
-    <time datetime="2015-11-01T07:03:35.634Z" itemprop="datePublished"> 發表於 2015-11-01</time>
+    <time datetime="2015-11-01T07:03:35.634Z" itemprop="datePublished"> 发表于 2015-11-01</time>
     
   </p>
 </header>
 	<div class="article-content">
 		
 		<div id="toc" class="toc-article">
-			<strong class="toc-title">文章目錄</strong>
+			<strong class="toc-title">文章目录</strong>
 		
 			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#环境准备"><span class="toc-number">1.</span> <span class="toc-text">环境准备</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Python"><span class="toc-number">1.1.</span> <span class="toc-text">Python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#IDE"><span class="toc-number">1.2.</span> <span class="toc-text">IDE</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Requests模块"><span class="toc-number">2.</span> <span class="toc-text">Requests模块</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装"><span class="toc-number">2.1.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#通过Requests获取网页源代码"><span class="toc-number">2.2.</span> <span class="toc-text">通过Requests获取网页源代码</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#无反爬虫机制"><span class="toc-number">2.2.1.</span> <span class="toc-text">无反爬虫机制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#有反爬虫机制"><span class="toc-number">2.2.2.</span> <span class="toc-text">有反爬虫机制</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#coding=utf-8"><span class="toc-number">3.</span> <span class="toc-text">coding=utf-8</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Requests正则搜索"><span class="toc-number">3.1.</span> <span class="toc-text">Requests正则搜索</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#re模块"><span class="toc-number">3.1.1.</span> <span class="toc-text">re模块</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#向网页提交数据"><span class="toc-number">3.2.</span> <span class="toc-text">向网页提交数据</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Get与Post"><span class="toc-number">3.2.1.</span> <span class="toc-text">Get与Post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#网页分析工具"><span class="toc-number">3.2.2.</span> <span class="toc-text">网页分析工具</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#构造表单"><span class="toc-number">3.2.3.</span> <span class="toc-text">构造表单</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#XPath"><span class="toc-number">4.</span> <span class="toc-text">XPath</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#lxml"><span class="toc-number">4.1.</span> <span class="toc-text">lxml</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#获取HTML的XPath路径"><span class="toc-number">4.1.1.</span> <span class="toc-text">获取HTML的XPath路径</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#爬取内容"><span class="toc-number">4.1.2.</span> <span class="toc-text">爬取内容</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#XPath高级使用技巧"><span class="toc-number">4.2.</span> <span class="toc-text">XPath高级使用技巧</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#相同字符串开头、但属性不同"><span class="toc-number">4.2.1.</span> <span class="toc-text">相同字符串开头、但属性不同</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#嵌套标签"><span class="toc-number">4.2.2.</span> <span class="toc-text">嵌套标签</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#最后"><span class="toc-number">5.</span> <span class="toc-text">最后</span></a></li></ol>
 		
@@ -223,17 +223,17 @@ IDE我们使用Pycharm进行开发，它和大名鼎鼎的Android Studio、IDEA�
 
 
 </div>  
-      <div class="openaside"><a class="navbutton" href="#" title="顯示側邊欄"></a></div>
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
 
   <div id="toc" class="toc-aside">
-  <strong class="toc-title">文章目錄</strong>
+  <strong class="toc-title">文章目录</strong>
  
  <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#环境准备"><span class="toc-number">1.</span> <span class="toc-text">环境准备</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Python"><span class="toc-number">1.1.</span> <span class="toc-text">Python</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#IDE"><span class="toc-number">1.2.</span> <span class="toc-text">IDE</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Requests模块"><span class="toc-number">2.</span> <span class="toc-text">Requests模块</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装"><span class="toc-number">2.1.</span> <span class="toc-text">安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#通过Requests获取网页源代码"><span class="toc-number">2.2.</span> <span class="toc-text">通过Requests获取网页源代码</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#无反爬虫机制"><span class="toc-number">2.2.1.</span> <span class="toc-text">无反爬虫机制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#有反爬虫机制"><span class="toc-number">2.2.2.</span> <span class="toc-text">有反爬虫机制</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#coding=utf-8"><span class="toc-number">3.</span> <span class="toc-text">coding=utf-8</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Requests正则搜索"><span class="toc-number">3.1.</span> <span class="toc-text">Requests正则搜索</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#re模块"><span class="toc-number">3.1.1.</span> <span class="toc-text">re模块</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#向网页提交数据"><span class="toc-number">3.2.</span> <span class="toc-text">向网页提交数据</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Get与Post"><span class="toc-number">3.2.1.</span> <span class="toc-text">Get与Post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#网页分析工具"><span class="toc-number">3.2.2.</span> <span class="toc-text">网页分析工具</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#构造表单"><span class="toc-number">3.2.3.</span> <span class="toc-text">构造表单</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#XPath"><span class="toc-number">4.</span> <span class="toc-text">XPath</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#lxml"><span class="toc-number">4.1.</span> <span class="toc-text">lxml</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#获取HTML的XPath路径"><span class="toc-number">4.1.1.</span> <span class="toc-text">获取HTML的XPath路径</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#爬取内容"><span class="toc-number">4.1.2.</span> <span class="toc-text">爬取内容</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#XPath高级使用技巧"><span class="toc-number">4.2.</span> <span class="toc-text">XPath高级使用技巧</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#相同字符串开头、但属性不同"><span class="toc-number">4.2.1.</span> <span class="toc-text">相同字符串开头、但属性不同</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#嵌套标签"><span class="toc-number">4.2.2.</span> <span class="toc-text">嵌套标签</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#最后"><span class="toc-number">5.</span> <span class="toc-text">最后</span></a></li></ol>
  
   </div>
 
 <div id="asidepart">
-<div class="closeaside"><a class="closebutton" href="#" title="隱藏側邊欄"></a></div>
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
 <aside class="clearfix">
 
   
@@ -251,7 +251,7 @@ IDE我们使用Pycharm进行开发，它和大名鼎鼎的Android Studio、IDEA�
   
 
   <div class="linkslist">
-  <p class="asidetitle">友情鏈接</p>
+  <p class="asidetitle">友情链接</p>
     <ul>
         
           <li>
@@ -273,7 +273,7 @@ IDE我们使用Pycharm进行开发，它和大名鼎鼎的Android Studio、IDEA�
 
 
   <div class="rsspart">
-	<a href="/atom.xml" target="_blank" title="rss">RSS 訂閱</a>
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
 </div>
 
   <div class="weiboshow">
@@ -515,7 +515,7 @@ document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3
 <!-- Totop Begin -->
 
 	<div id="totop">
-	<a title="返回頂部"><img src="/img/scrollup.png"/></a>
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
 	</div>
 	<script src="/js/totop.js"></script>
 
